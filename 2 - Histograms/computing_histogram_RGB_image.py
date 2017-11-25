@@ -7,7 +7,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-messi = cv2.imread("messi2.png")
+messi = cv2.imread("../resource/messi2.png")
 
 b_hist = cv2.calcHist([messi], [0], None, [256], [0,256])
 g_hist = cv2.calcHist([messi], [1], None, [256], [0,256])

@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("pic.jpg")
+image = cv2.imread("../resource/pic.jpg")
 gray  = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(gray, 240, 255, cv2.THRESH_BINARY)
 

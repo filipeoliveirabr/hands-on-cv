@@ -2,7 +2,7 @@ import cv2
 import random
 import numpy as np
 
-image = cv2.imread("coffee.jpg")
+image = cv2.imread("../resource/coffee.jpg")
 (rows, cols, planes) = np.shape( image )
 center = (cols // 2, rows // 2)
 

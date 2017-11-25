@@ -2,7 +2,7 @@ import cv2
 from matplotlib import pyplot as plt 
 
 
-image = cv2.imread('messi2.png')
+image = cv2.imread('../resource/messi2.png')
 grayscale = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 cv2.imshow("gray image",grayscale)
 cv2.waitKey(0)

@@ -1,6 +1,6 @@
 import cv2
 
-pic = cv2.imread("messi2.png")
+pic = cv2.imread("../resource/messi2.png")
 print("Original shape")
 print(pic.shape)
 print("\n")

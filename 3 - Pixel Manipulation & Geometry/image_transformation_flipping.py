@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("pic.jpg")
+image = cv2.imread("../resource/pic.jpg")
 
 hor  = cv2.flip(image, 1)
 vert = cv2.flip(image, 0)

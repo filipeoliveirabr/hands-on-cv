@@ -1,6 +1,6 @@
 import cv2
 
-coffePic = cv2.imread("coffee.jpg")
+coffePic = cv2.imread("../resource/coffee.jpg")
 
 gray_image = cv2.cvtColor(coffePic, cv2.COLOR_BGR2GRAY)
 

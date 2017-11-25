@@ -4,7 +4,7 @@ import cv2
 
 from matplotlib import pyplot as plt
 
-pic  = cv2.imread("messi2.png")
+pic  = cv2.imread("../resource/messi2.png")
 gray = cv2.cvtColor(pic, cv2.COLOR_BGR2GRAY)
 
 tweaked_image = cv2.cvtColor(pic, cv2.COLOR_BGR2RGB)

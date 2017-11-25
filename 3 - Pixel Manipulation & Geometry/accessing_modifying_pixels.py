@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread("coffee.jpg")
+image = cv2.imread("../resource/coffee.jpg")
 
 pixel = image[300, 320]
 print(pixel)
