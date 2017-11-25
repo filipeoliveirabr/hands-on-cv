@@ -1,6 +1,6 @@
-# cv2.calcHist( , , , ,)
 import cv2
 from matplotlib import pyplot as plt 
+
 
 image = cv2.imread('messi2.png')
 grayscale = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
