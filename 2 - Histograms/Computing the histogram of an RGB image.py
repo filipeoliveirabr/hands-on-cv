@@ -13,7 +13,6 @@ b_hist = cv2.calcHist([messi], [0], None, [256], [0,256])
 g_hist = cv2.calcHist([messi], [1], None, [256], [0,256])
 r_hist = cv2.calcHist([messi], [2], None, [256], [0,256])
 
-
 plt.figure()
 plt.xlabel("Intensity Levels")
 plt.ylabel("Number of Pixels")
